@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="12" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-21T12:52:27 IST" name="Suite" finished-at="2021-06-21T12:52:27 IST" duration-ms="205">
+    <groups>
+      <group name="smoke">
+        <method signature="runTestNG2.run()[pri:0, instance:test.runTestNG2@4944252c]" name="run" class="test.runTestNG2"/>
+        <method signature="personalLoan.grop()[pri:0, instance:test.personalLoan@6cd28fa7]" name="grop" class="test.personalLoan"/>
+        <method signature="homeLoan.home()[pri:0, instance:test.homeLoan@54bff557]" name="home" class="test.homeLoan"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-06-21T12:52:27 IST" name="Test" finished-at="2021-06-21T12:52:27 IST" duration-ms="52">
+      <class name="test.runTestNG2">
+        <test-method signature="run()[pri:0, instance:test.runTestNG2@4944252c]" started-at="2021-06-21T12:52:27 IST" name="run" finished-at="2021-06-21T12:52:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- test.runTestNG2 -->
+    </test> <!-- Test -->
+    <test started-at="2021-06-21T12:52:27 IST" name="personalLoan" finished-at="2021-06-21T12:52:27 IST" duration-ms="62">
+      <class name="test.personalLoan">
+        <test-method is-config="true" signature="personal1()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="personal1" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal1 -->
+        <test-method is-config="true" signature="beforeEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="beforeEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method signature="grop()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="grop" finished-at="2021-06-21T12:52:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grop -->
+        <test-method is-config="true" signature="afterEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="afterEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method signature="peronal()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="peronal" finished-at="2021-06-21T12:52:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peronal -->
+        <test-method is-config="true" signature="beforeEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="beforeEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method is-config="true" signature="afterEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="afterEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method signature="personal1()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="personal1" finished-at="2021-06-21T12:52:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal1 -->
+        <test-method is-config="true" signature="beforeEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="beforeEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method is-config="true" signature="afterEveryMethod()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="afterEveryMethod" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method is-config="true" signature="peronal()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="peronal" finished-at="2021-06-21T12:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peronal -->
+      </class> <!-- test.personalLoan -->
+    </test> <!-- personalLoan -->
+    <test started-at="2021-06-21T12:52:27 IST" name="homeLoan" finished-at="2021-06-21T12:52:27 IST" duration-ms="36">
+      <class name="test.personalLoan">
+        <test-method is-config="true" signature="Beforesuit()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="Beforesuit" finished-at="2021-06-21T12:52:27 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuit -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:test.personalLoan@6cd28fa7]" started-at="2021-06-21T12:52:27 IST" name="afterSuit" finished-at="2021-06-21T12:52:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- test.personalLoan -->
+      <class name="test.homeLoan">
+        <test-method signature="afterclass(java.lang.String,java.lang.String)[pri:0, instance:test.homeLoan@54bff557]" started-at="2021-06-21T12:52:27 IST" name="afterclass" finished-at="2021-06-21T12:52:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.zoomin.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.homeLoan@54bff557]" started-at="2021-06-21T12:52:27 IST" name="beforeClass" data-provider="getData" finished-at="2021-06-21T12:52:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.homeLoan@54bff557]" started-at="2021-06-21T12:52:27 IST" name="beforeClass" data-provider="getData" finished-at="2021-06-21T12:52:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.homeLoan@54bff557]" started-at="2021-06-21T12:52:27 IST" name="beforeClass" data-provider="getData" finished-at="2021-06-21T12:52:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="home()[pri:0, instance:test.homeLoan@54bff557]" started-at="2021-06-21T12:52:27 IST" name="home" finished-at="2021-06-21T12:52:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- test.homeLoan -->
+    </test> <!-- homeLoan -->
+  </suite> <!-- Suite -->
+</testng-results>
